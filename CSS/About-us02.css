@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+.about-top{
+    background-image: url("../Media/about/background00.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    padding: 0px 15px 0px 15px;
+    position: relative;
+
+}
+.about-background-overlay{
+    background-color: #00000000;
+    background-image: linear-gradient(to right, #FFFFFF 60%, #F2295B00 100%);
+    opacity: 0.65;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.about-column{
+    min-height: 400px;
+    max-width: 1140px;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.about-widget-wrap{
+    position: relative;
+    width: 100%;
+    min-width: 768px;
+    text-align: center;
+}
+.about-heading-title{
+    font-family: 'Cinzel', sans-serif;
+    font-size: 62px;
+    font-weight: normal;
+    line-height: 1.1em;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+div {
+    display: block;
+}
+.video-conten{
+    background-image: url("../Media/about/about03.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    margin-bottom: 110px;
+    font-weight: normal;
+}
+.about-box{
+    margin: -20% 0 60px 40%;
+
+}
+.about-box1{
+    padding: 70px 70px 70px 70px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #A7A7A7;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.89);
+    box-shadow: -10px 0px 5px rgb(0, 0, 0);
+
+}
+
+
