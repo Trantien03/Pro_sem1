@@ -5,7 +5,7 @@ body{
     font-family: 'Jost', sans-serif;
 }
 .about-top{
-    background-image: url("../Media/about/background00.jpg");
+    background-image: url("../Media/background00.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +60,7 @@ div {
     display: block;
 }
 .video-conten{
-    background-image: url("../Media/about/about03.jpg");
+    background-image: url("../Media/about03.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
