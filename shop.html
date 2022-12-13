@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>header-footer</title>
+  <title>shop</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="list/bootstrap5.2.3/css/bootstrap.css">
-  <link rel="stylesheet" href="CSS/shop.css"/>
+  <link rel="stylesheet" href="CSS/shop.css">
   <style>
+
     section{
       background-image: url("Media/nen.png");
       background-repeat: no-repeat;
@@ -18,25 +19,28 @@
 <body>
 
 <!-- header cứ cop rồi gắn vào-->
-<header class="row">
-  <div class="col-9">
-    <div class="flex-column">
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col">
-        &emsp;&emsp;&emsp;&emsp;&emsp;<i class="bi bi-facebook"></i>&ensp;
-        <i class="bi bi-twitter"></i>&ensp;
-        <i class="bi bi-youtube"></i>&ensp;
-        <i class="bi bi-instagram"></i>&ensp;
-        <i class="bi bi-tiktok"></i>&ensp;
+<header class="container ">
+  <div class="row" >
+    <div class="col-9 ">
+      <div class="flex-column">
+
+        <div class="col">
+          &emsp;<i class="bi bi-facebook"></i>&ensp;
+          <i class="bi bi-twitter"></i>&ensp;
+          <i class="bi bi-youtube"></i>&ensp;
+          <i class="bi bi-instagram"></i>&ensp;
+          <i class="bi bi-tiktok"></i>&ensp;
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-3 row" >
-    <p class="col-3">Log In</p>
-    <span class="col-1">|</span>
-    <p class="col-6">Register Account</p>
+    <div class="col-3" >
+      <div class="row">
+        <p class="col-3">Log In</p>
+        <span class="col-1">|</span>
+        <p class="col-7">Register Account</p>
+      </div>
+
+    </div>
   </div>
 </header>
 
@@ -46,7 +50,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-    <div class="collapse navbar-collapse col-4" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse col-5" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -77,13 +81,13 @@
         </li>
       </ul>
     </div>
-    <div class="col-2">
-      <i class="bi bi-telephone-inbound">  Hot line: <br>&emsp;+84 385225687</i>
+    <div class="col-1">
+      <i class="bi bi-telephone-inbound"> Hot line:<br>0353241999</i>
     </div>
     <div class="col-1" style="font-size: x-large">
       <i class="bi bi-cart3"></i>
     </div>
-    <div class="col-1 " style="font-size: x-large">
+    <div class="col-1"style="font-size: x-large">
       <i class="bi bi-search"></i>
     </div>
   </div>
@@ -94,21 +98,24 @@
   <p class="p-5" style="color: deeppink">ELEMENTOR TEMPLATE</p><br>
   </div>
   <div class="h1">
-    <p >Fashionable - Fashion Shop</p>
-    <p>Elementor Template KitFashionable - Fashion Shop</p><br>
+    <p>Fashionable - Fashion Shop</p>
+    <p>Elementor Template Kit</p><br>
   </div>
-  <div class="">
+  <div class="p">
     <p>A Fashion Shop Elementor Template Kit created especially to build any type of e-commerce</p>
     <p>Websites and businesses without a single line of coding!</p><br>
   </div>
-  <button style="background-color: #1a1e21" type="button " class="btn btn-secondary btn-lg">GO TO DEMOS ></button>
-</section><br><br>
+  <div class="card-body">
+    <button style="background-color: #1a1e21" type="button " class="btn btn-secondary btn-lg"><a  href="#">GO TO DEMOS ></a></button>
+  </div>
+</section><br><br><br>
+
 
 <main>
   <div class="container">
     <div class="row">
       <div class="col-4"><br>
-        <div class="col">Showing 1–4 of 24 results</div>
+        <div class="col">Showing 1–4 of 24 results</div><br>
         <a href="shopcon1.html"> <img class="img-fluid" src="Media/anh1.jpg"> </a>
         <div style="text-align: center">
           <h4>Basic Dress</h4>
@@ -133,8 +140,7 @@
             <option value="4">Sort by price: low to high</option>
             <option value="5">Sort by price: high to low</option>
             <option value="6">Sort by latest</option>
-
-          </select>
+          </select><br>
           <img class="img-fluid" src="Media/anh2.jpg">
           <div style="text-align: center">
             <h4>Beige-Dress</h4>
@@ -273,6 +279,7 @@
   </div>
 </main><br><br><br>
 
+
 <!--footer cứ cop rồi gắn vào-->
 <footer class="text-center text-lg-start bg-light text-muted" ><br>
   <div class="container text-center text-md-start mt-5">
@@ -340,6 +347,10 @@
         <div class="card-body" >
           <h5 class="card-title">Subscribe newsletter</h5>
           <p class="card-text">Enter your email to receive our latest update and offer !</p>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div><br>
           <a href="#" class="btn btn-outline-dark">SUBCRIBE NOW</a>
         </div>
       </div>
