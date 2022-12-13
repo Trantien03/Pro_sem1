@@ -6,3 +6,11 @@ section{
 main{
     font-family: 'Cinzel',sans-serif;
 }
+nav{
+    font-family: 'Jost', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #4f5050;
+
+}
