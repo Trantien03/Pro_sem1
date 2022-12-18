@@ -9,8 +9,8 @@ main{
 nav{
     font-family: 'Jost', sans-serif;
 }
-a{
+a:hover{
     text-decoration: none;
-    color: #4f5050;
+    color: #00cffe;
 
 }
