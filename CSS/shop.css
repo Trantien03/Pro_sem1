@@ -67,6 +67,6 @@ a{
     text-decoration: none;
     transition: all 30ms;
 }
-p:hover{
-    color: dodgerblue;
+a:hover{
+    color: red;
 }
