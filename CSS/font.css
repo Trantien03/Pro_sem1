@@ -9,8 +9,18 @@ main{
 nav{
     font-family: 'Jost', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 a:hover{
     text-decoration: none;
     color: #00cffe;
-
+}
+.text-uppercase{
+    text-decoration: none;
+    color: deeppink;
+}
+footer>a:hover{
+    text-decoration: none;
+    color: #00cffe;
 }
