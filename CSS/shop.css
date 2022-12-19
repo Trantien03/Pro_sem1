@@ -68,7 +68,7 @@ a{
     transition: all 30ms;
 }
 p:hover{
-    color: darkcyan;
+    color: #5e6ab9;
 }
 *{
     margin: 0;
