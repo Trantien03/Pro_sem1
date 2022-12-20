@@ -67,9 +67,6 @@ a{
     text-decoration: none;
     transition: all 30ms;
 }
-p:hover{
-    color: #0dcaf0;
-}
 *{
     margin: 0;
     padding: 0;
