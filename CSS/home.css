@@ -107,3 +107,12 @@ button:hover{
 }
 .home-best{
 }
+/*đây la dòng kẻ*/
+.current1{
+    transform: translate(-4px,37px);
+    width: 9cm;
+}
+.current2{
+    transform: translate(610px,-34px);
+    width: 9cm;
+}
