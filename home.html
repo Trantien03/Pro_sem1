@@ -412,9 +412,37 @@
     </div>
   </div>
 
-  <div class="container p-5 "><br><br>
+  <section class="section">
+    <div class="container pt-5 my-5">
+      <div class="row">
+        <div class="video-conten">
+          <a href="https://www.youtube.com/embed/VhBl3dHT5SY?feature=oembed?playlist=VhBl3dHT5SY&mute=0&autoplay=0&loop=no&controls=0&start=0&end=">
+            <h1 class="bi bi-play-circle-fill"></h1>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container about-box">
+      <div class="row1 ">
+        <div class="about-box1">
+          <p>Our Mission</p>
+          <h1>Quality products</h1>
+          <h1>Quality Services</h1>
+          <p>Hymenaeos quod luctus placeat, fugiat, voluptatem temporibus nesciunt? Est laoreet, incidunt debitis cum dolorem neque iure, voluptates ornare rerum quis, laboriosam, quia corporis repudiandae, iste debitis lacus mauris ab.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <div class="container p-5 ">
     <div class="text-center row">
-      <p>Latest Wardrobe</p>
+      <p>Top sale of the week</p>
       <div class="col-3">
         <div class="text-center current1" ><hr></div>
       </div>
@@ -465,7 +493,7 @@
       </div>
   </div>
   </div>
-  <div class="container">
+  <div class="container"><br><br>
     <div class="owl-carousel owl-theme">
       <div class="item"><h4><img src="Media/about/p1.png"/></h4></div>
       <div class="item"><h4><img src="Media/about/p2.png"/></h4></div>
@@ -475,6 +503,7 @@
       <div class="item"><h4><img src="Media/about/p6.png"/></h4></div>
     </div>
   </div>
+  <br>
 
 
 </main>
@@ -560,5 +589,25 @@
     <a class="text-reset fw-bold" href="#">PhucTrinh.com</a>
   </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+<script src="list/huongxinhdep/owl.carousel.min.js"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:4
+      }
+    }
+  })
+</script>
 </body>
 </html>
