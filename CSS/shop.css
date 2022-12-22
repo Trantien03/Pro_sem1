@@ -35,19 +35,19 @@ main{
 
 .jacket{
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
 }
 .wedding{
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
 }
 .fullshirt{
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
 }
 .heelshoe{
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
 }
 .anh6cai{
     width: 200px;
@@ -58,7 +58,7 @@ a{
     transition: all 30ms;
 }
 u:hover{
-    color: #084298;
+    color: #0a53be;
 }
 *{
     margin: 0;
