@@ -9,8 +9,15 @@ main{
 nav{
     font-family: 'Jost', sans-serif;
 }
+footer{
+    font-family: 'Jost', sans-serif;
+}
+header{
+    font-family: 'Jost', sans-serif;
+}
 a{
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
 }
 p.table-hover:hover {
     color: #0a53be;
@@ -18,5 +25,15 @@ p.table-hover:hover {
 .text-uppercase{
     text-decoration: none;
     color: deeppink;
+    font-family: 'Cinzel', sans-serif;
 }
-
+.alignment>p{
+    margin-bottom: 0rem;
+    font-size: 15px;
+}
+.alignment:hover{
+    color: dodgerblue;
+}
+.element-click:active{
+    color: red;
+}
