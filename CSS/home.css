@@ -173,4 +173,8 @@ button:hover{
     border-width: 3px 3px 3px 3px;
     border-color: rgba(167, 167, 167, 0.68);
 }
+.home-edit-text{
+    padding: 30px;
+    text-align: left;
+}
 /*hết*/
